@@ -17,6 +17,7 @@ public class SecondLargestElementInArray {
                 if(mx!=nums[i])smx = Math.max(smx,nums[i]);
             }
         }
+        if(smx==Integer.MIN_VALUE)smx=-1;
         return smx;
     }
 
